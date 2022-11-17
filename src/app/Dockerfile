@@ -1,11 +1,3 @@
-FROM node:16
+FROM httpd:2.4
 
-WORKDIR /usr/src/app
-
-COPY package*.json ./
-
-COPY app.js ./
-
-RUN npm start
-
-EXPOSE 8080
+COPY . /usr/local/apache2/htdocs

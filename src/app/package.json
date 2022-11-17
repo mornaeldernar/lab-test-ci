@@ -1,10 +1,13 @@
 {
-    "name":"myapp",
-    "version":"1.0.0",
-    "description":"Node.js on docker",
-    "author":"Rafael Jimenez <jimenez.rafa@gmail.com",
-    "main":"app.js",
+    "name": "myapp",
+    "version": "1.0.0",
+    "description": "Node.js on docker",
+    "author": "Rafael Jimenez <jimenez.rafa@gmail.com",
+    "main": "app.js",
     "scripts": {
-        "start":"node app.js"
+        "start": "node app.js"
+    },
+    "dependencies": {
+        "http": "^0.0.1-security"
     }
 }
